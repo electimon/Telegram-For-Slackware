@@ -23,7 +23,7 @@
 # <http://www.gnu.org/licenses/>.
 
 PRGNAM=Telegram
-VERSION=${VERSION:-0.6.15}
+VERSION=${VERSION:-2.4.3}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
@@ -40,8 +40,8 @@ TMP=${TMP:-/tmp/SBo}
 PKG=$TMP/package-$PRGNAM
 OUTPUT=${OUTPUT:-/tmp}
 
-TARBALL_x86="tsetup32.0.6.15.tar.xz" # Name of 32bit tarball
-TARBALL_x86_64="tsetup.0.6.15.tar.xz" # Name of 64bit tarball
+TARBALL_x86="tsetup32."${VERSION}".tar.xz" # Name of 32bit tarball
+TARBALL_x86_64="tsetup."${VERSION}".tar.xz" # Name of 64bit tarball
 TARBALL_ROOT="Telegram" # Name of tarballs root directory
 
 # Set LIBDIRSUFFIX and TARBALL.
